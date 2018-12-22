@@ -4,7 +4,7 @@ client.on('message', message => {
  var prefix = "$";
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
-});
+
 client.on('message', message => {
               if (!message.channel.guild) return;
       if(message.content =='-count')
