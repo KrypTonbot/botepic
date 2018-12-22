@@ -26,5 +26,4 @@ client.on('message', message => {
         .setImage(`${x5bzm.avatarURL}`)
       message.channel.sendEmbed(embed);
     }
-});
 client.login(process.env.BOT_TOKEN);
